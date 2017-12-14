@@ -3,7 +3,7 @@ package com.sample.javaDesignMode.creational.prototype;
 import java.io.IOException;
 
 /**
- * @author LW  
+ *   
  * @date 2017年11月15日
  */
 public class PrototypeTest {

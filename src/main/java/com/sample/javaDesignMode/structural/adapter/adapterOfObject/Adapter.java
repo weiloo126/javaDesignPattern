@@ -4,7 +4,7 @@ import com.sample.javaDesignMode.structural.adapter.adapterOfObject.Source;
 import com.sample.javaDesignMode.structural.adapter.adapterOfObject.Targetable;
 
 /**
- * @author LW  
+ *   
  * @date 2017年11月15日
  */
 public class Adapter implements Targetable {

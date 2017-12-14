@@ -1,7 +1,7 @@
 package com.sample.javaDesignMode.structural.proxy;
 
 /**
- * @author LW  
+ *   
  * @date 2017年11月13日
  */
 public class ProxyTest {

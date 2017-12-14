@@ -1,7 +1,7 @@
 package com.sample.javaDesignMode.behavioral._1superAndSub.templateMethod;
 
 /**
- * @author LW  
+ *   
  * @date 2017年11月14日
  */
 public class Multiply extends AbstractCalculator {

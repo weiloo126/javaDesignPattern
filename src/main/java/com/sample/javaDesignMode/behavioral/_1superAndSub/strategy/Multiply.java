@@ -1,7 +1,7 @@
 package com.sample.javaDesignMode.behavioral._1superAndSub.strategy;
 
 /**
- * @author LW  
+ *   
  * @date 2017年11月14日
  */
 public class Multiply extends AbstractCalculator implements ICalculator {
