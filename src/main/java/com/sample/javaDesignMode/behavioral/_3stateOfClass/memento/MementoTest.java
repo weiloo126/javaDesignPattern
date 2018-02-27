@@ -20,7 +20,7 @@ public class MementoTest {
         origi.setValue("niu");  
         System.out.println("修改后的状态为：" + origi.getValue());  
   
-        // 回复原始类的状态  
+        // 恢复原始类的状态  
         origi.restoreMemento(storage.getMemento());  
         System.out.println("恢复后的状态为：" + origi.getValue());  
 	}
