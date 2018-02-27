@@ -1,10 +1,8 @@
 package com.sample.javaDesignMode.creational.abstractFactory;
 
 /**
- * 
  * @date 2017年11月14日
  */
-public interface Provider {
-
-	public Sender produce();  
+public interface Sender {
+	public void send();  
 }

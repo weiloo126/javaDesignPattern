@@ -4,11 +4,11 @@ package com.sample.javaDesignMode.creational.abstractFactory;
  * 
  * @date 2017年11月14日
  */
-public class SendSmsFactory implements Provider {
+public class SmsSender implements Sender {
 
 	@Override
-	public Sender produce() {
-		return new SmsSender();
+	public void send() {
+		System.out.println("this is sms sender!");  
 	}
 
 }

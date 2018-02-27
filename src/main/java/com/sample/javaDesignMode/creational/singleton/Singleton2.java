@@ -25,4 +25,10 @@ public class Singleton2 {
     public Object readResolve() {  
         return getInstance();  
     }  
+    
+    public static void main(String[] args) {
+		Singleton2 obj1 = Singleton2.getInstance();
+		Singleton2 obj2 = Singleton2.getInstance();
+		System.out.println(obj1 == obj2);
+	}
 }
